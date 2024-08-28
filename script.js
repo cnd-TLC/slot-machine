@@ -16,7 +16,7 @@
   ];
 
 
-  let rolls = 5
+  let rolls = 7
   let result = []
 
   const doors = document.querySelectorAll(".door");
@@ -247,7 +247,7 @@
   function init(firstInit = true, groups = 1, duration = 1) {
     result = []
     if(firstInit){
-      rolls = 5
+      rolls = 7
       document.getElementById('rolls').innerHTML = rolls
     }
 
