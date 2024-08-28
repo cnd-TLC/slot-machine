@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>	
+	</head>
+	<body>
+		<div id="page">
+			<div id="content">
+		  		<p class="rolls"> Roll(s) : <span id="rolls"> </span> </p>
+				<p class="legend"> <span class="icon"> 🎯🎯🎯 </span> = 50 pesos </p>
+				<p class="legend"> <span class="icon"> 🎲🎲 </span> = roll +1 </p>
+				<p class="legend"> <span class="icon">  🎲🎲🎲 </span> = roll +2 </p>
+				<p class="legend"> <span class="icon"> 💰💰 </span> = balik taya (x1) </p>
+				<p class="legend"> <span class="icon"> 💰💰💰 </span> = balik taya (x2) </p>
+				<p class="legend"> <span class="icon"> 🍪🍪 </span> = biscuit (x1)</p>
+				<p class="legend"> <span class="icon"> 🍪🍪🍪 </span> = biscuit (x2)</p>
+				<p class="legend"> <span class="icon"> 🍫🍫 </span> = chocolate (x1) </p>
+				<p class="legend"> <span class="icon"> 🍫🍫🍫 </span> = chocolate (x2) </p>
+				<p class="legend"> <span class="icon"> 😝😝 / 😝😝😝 </span> = talo </p>
+				<p class="legend"> <span class="icon"> 😂😂 / 😂😂😂 </span> = talo </p>
+				<p class="legend"> <span class="icon"> 😭😭 / 😭😭😭 </span> = talo </p>
+			</div>	
+			<div id="slot-machine">
+				<div class="container">
+			        <div class="circle red"></div>
+			        <div class="circle blue"></div>
+			        <div class="circle green"></div>
+			        <div class="circle yellow"></div>
+			        <div class="circle purple"></div>
+			    </div>
+
+		  		<div class="doors">
+	    			<div class="door">
+	      				<div class="boxes">
+	      				</div>
+	    			</div>
+
+	    			<div class="door">
+	      				<div class="boxes">
+	      				</div>
+	    			</div>
+
+	    			<div class="door">
+	      				<div class="boxes">
+		  				</div>
+		   	 		</div>
+		  		</div>
+
+		  		&nbsp;
+
+		  		<div class="buttons">
+		    		<button class="swal2-confirm swal2-styled" id="spinner">Roll</button>
+		    		<button class="swal2-confirm swal2-styled" id="reseter">Reset</button>
+		  		</div>
+
+			</div>
+		</div>
+  		<!-- <p class="info">🎲 💰 🎯 🍪 🍫 😝 😂 😭</p> -->
+		<script src="script.js"></script>
+	</body>
+</html>
