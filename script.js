@@ -12,7 +12,8 @@
     "😭",
     "😝",
     "😂",
-    "😭"
+    "😭",
+    "😝"
   ];
 
 
@@ -271,7 +272,7 @@
           arr.push(...items);
         }
         pool.push(...shuffle(arr));
-        result.push(pool[11])
+        result.push(pool[12])
         boxesClone.addEventListener(
           "transitionstart",
           function () {
