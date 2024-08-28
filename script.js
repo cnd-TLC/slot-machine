@@ -138,7 +138,7 @@
       if(result[1] == "💰")
         Swal.fire({
           title: "<span style='font-size: 4em;'>💰</span>",
-          text: "Congratulations, bawi taya (x1)!",
+          text: "Congratulations, 10 pesos!",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -203,7 +203,7 @@
       if(result[0] == "💰")
         Swal.fire({
           title: "<span style='font-size: 4em;'>💰</span>",
-          text: "Congratulations, bawi taya (x1)!",
+          text: "Congratulations, 20 pesos!",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
