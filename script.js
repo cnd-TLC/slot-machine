@@ -5,8 +5,12 @@
     "🎲",
     "💰",
     "🎯",
-    "🍪",
-    "🍫",
+    "🫓",
+    "🥔",
+    "☁️",
+    "☁️",
+    "🍬",
+    "🍬",
     "😝",
     "😂",
     "😭",
@@ -272,7 +276,7 @@
           arr.push(...items);
         }
         pool.push(...shuffle(arr));
-        result.push(pool[12])
+        result.push(pool[16])
         boxesClone.addEventListener(
           "transitionstart",
           function () {
