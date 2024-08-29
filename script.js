@@ -91,10 +91,10 @@
             no-repeat
           `
         })
-      if(result[0] == "🍪")
+      if(result[0] == "🫓")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍪🍪</span>",
-          text: "Congratulations, nanalo ka ng biscuit (x2)",
+          title: "<span style='font-size: 4em;'>🫓🫓</span>",
+          text: "Congratulations, nanalo ka ng large chips (x2)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -102,10 +102,32 @@
             no-repeat
           `
         })
-      if(result[0] == "🍫")
+      if(result[0] == "🥔")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍫🍫</span>",
-          text: "Congratulations, nanalo ka ng chocolate (x2)",
+          title: "<span style='font-size: 4em;'>🥔🥔</span>",
+          text: "Congratulations, nanalo ka ng medium chips (x2)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[0] == "☁️")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>☁️☁️</span>",
+          text: "Congratulations, nanalo ka ng marshmallow (x2)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[0] == "🍬")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>🍬🍬</span>",
+          text: "Congratulations, nanalo ka ng candy (x2)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -156,10 +178,10 @@
           title: "<span style='font-size: 4em;'>🎯</span>",
           text: "Kailangan tatlo para makuha ang jackpot!"
         })
-      if(result[1] == "🍪")
+      if(result[1] == "🫓")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍪</span>",
-          text: "Congratulations, nanalo ka ng biscuit (x1)",
+          title: "<span style='font-size: 4em;'>🫓</span>",
+          text: "Congratulations, nanalo ka ng large chips (x1)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -167,10 +189,32 @@
             no-repeat
           `
         })
-      if(result[1] == "🍫")
+      if(result[1] == "🥔")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍫</span>",
-          text: "Congratulations, nanalo ka ng chocolate (x1)",
+          title: "<span style='font-size: 4em;'>🥔</span>",
+          text: "Congratulations, nanalo ka ng medium chips (x1)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[1] == "☁️")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>☁️</span>",
+          text: "Congratulations, nanalo ka ng marshmallow (x1)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[1] == "🍬")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>🍬</span>",
+          text: "Congratulations, nanalo ka ng candy (x1)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -221,10 +265,10 @@
           title: "<span style='font-size: 4em;'>🎯</span>",
           text: "Kailangan tatlo para makuha ang jackpot!"
         })
-      if(result[0] == "🍪")
+      if(result[0] == "🫓")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍪</span>",
-          text: "Congratulations, nanalo ka ng biscuit (x1)",
+          title: "<span style='font-size: 4em;'>🫓</span>",
+          text: "Congratulations, nanalo ka ng large chips (x1)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
@@ -232,10 +276,32 @@
             no-repeat
           `
         })
-      if(result[0] == "🍫")
+      if(result[0] == "🥔")
         Swal.fire({
-          title: "<span style='font-size: 4em;'>🍫</span>",
-          text: "Congratulations, nanalo ka ng chocolate (x1)",
+          title: "<span style='font-size: 4em;'>🥔</span>",
+          text: "Congratulations, nanalo ka ng medium chips (x1)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[0] == "☁️")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>☁️</span>",
+          text: "Congratulations, nanalo ka ng marshmallow (x1)",
+          backdrop: `
+            rgba(0,0,123,0.0)
+            url("images/confetti.gif")
+            top
+            no-repeat
+          `
+        })
+      if(result[0] == "🍬")
+        Swal.fire({
+          title: "<span style='font-size: 4em;'>🍬</span>",
+          text: "Congratulations, nanalo ka ng candy (x1)",
           backdrop: `
             rgba(0,0,123,0.0)
             url("images/confetti.gif")
